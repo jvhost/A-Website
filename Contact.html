@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>APLUSPC - Contact</title>
+	<link href="apluspc.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+	    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.php"><img src="img/logos/apluspclogo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="col-md-4">
+					<h3 style="color:#c4161c">204.275.8772</h3>
+				</div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://localhost:81/opencart/">EStore</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="AboutUs.php">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<header>
+	<div class="container"  style="background-color:#e5e5e4; padding-bottom: 25px;padding-top: 90px;">
+	<div style="padding-top:30px;">
+		<ol class="breadcrumb">
+			<li><a href="index.php">Home</a></li>
+			<li class="active">Contact</li>
+		</ol>
+	</div></br>
+	<h1 class="heading">A+ Computers & Services</h1>
+            <div class="container">
+				<div class="col-md-5">
+				<h4 class="service-heading">A+ COMPUTERS & SERVICES INC.</h4>
+					<h4>204.APL.USPC | 204-275-8772</h4>
+					<p>3050 Portage Ave, Unit K</p>
+					<p>Winnipeg, Manitoba, Canada, R3K 0Y1</p>
+					<p>info@apluspc.ca</p>
+				</div>
+                
+				<div class="col-lg-6">
+                    <h4 class="section-heading">Contact Us</h4>
+                     <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." required>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." required>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number." required>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." required></textarea>
+                                    <p class="help-block text-danger"></p>
+									<div id="success" style="6px"></div>									
+                                </div>
+								<div class="form-group">
+									<body onLoad="ChangeCaptcha()">
+										<input type="text" id="randomfield" class="noselect" disabled>
+										<input type="image" src="Icons/refresh.png" alt="Submit" onclick="ChangeCaptcha()" class="refreshposition">
+										<input id="CaptchaEnter" class="form-control" size="20" maxlength="6" placeholder="Enter Captcha" required data-validation-required-message="Please enter Captcha." required/>										
+									</body>			
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary" onclick="check()">Send Message</button>
+								</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+				<div class="col-md-12">
+					<h3 class="section-heading">Hours of Operation </h3>
+										<h5>Weekdays 9:00am - 9:00pm
+										Saturday	10:00 AM - 2:00 PM
+										Sunday	Closed</h5>
+					<div style="background:transparent;">
+						<input type="button" class="btn btn-primary" onclick="window.location.href='https://www.google.com/maps/dir/current+location/3050+Portage+Ave+Unit+K,+Winnipeg+Manitoba,+R3K0Y1,+Canada/'" value="Get Directions">
+					</div>
+				</div>
+            </div>
+    </div>
+</header>
+    
+			<!-- Contact Map Section -->
+
+
+		<!-- Redirection Button to Google Maps -->
+		
+	
+			<div id="map" onclick="location.href='https://www.google.ca/maps/place/A%2B+Computers+%26+Services/@49.8796503,-97.2840788,17z/data=!4m7!1m4!3m3!1s0x52ea0c9baf769029:0x16d35ecfa072e7b2!2s3050+Portage+Ave,+Winnipeg,+MB+R3K+0Y1!3b1!3m1!1s0x52ea0c9ba8fab81b:0xe3c74c304102580d';">
+			
+			</div>
+			
+
+	
+		<!-- Contact Content Section -->
+
+	
+	
+</head>
+<!-- Contact Section -->
+
+
+   <footer class="footer-background">
+        <div class="container">
+            <div class="row">
+                 
+             
+               <div class="col-md-12">
+					
+                    <h4 class="service-heading">Follow Us</h4>
+					
+                    <p class="text-muted"> <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/apluspc_ca" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/APLUSPC/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a>
+						</li>
+                    </ul>
+					<span class="copyright">Copyright &copy; A+ Computers & Services</span></p>
+                </div>
+            </div>
+        </div>
+		<a href="#" class="scrollToTop"></a>
+    </footer>
+	
+	
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+	
+	
+	<!-- Script for Back To Top Button -->
+	<script>
+		$(document).ready(function(){
+		
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('.scrollToTop').fadeIn();
+			} else {
+				$('.scrollToTop').fadeOut();
+			}
+		});
+		
+		//Click event to scroll to top
+		$('.scrollToTop').click(function(){
+			$('html, body').animate({scrollTop : 0},"slow");
+			return false;
+		});
+		
+	});
+	</script>
+	
+	
+	<!--Script for Captcha -->
+	<script>
+		function ChangeCaptcha() {
+			var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+			var string_length = 6;
+			var ChangeCaptcha = '';
+			for (var i=0; i<string_length; i++) {
+				var rnum = Math.floor(Math.random() * chars.length);
+				ChangeCaptcha += chars.substring(rnum,rnum+1);
+			}
+			document.getElementById('randomfield').value = ChangeCaptcha;
+		}
+		function check() {
+		if(document.getElementById('CaptchaEnter').value == document.getElementById('randomfield').value ) {
+		window.open('','_self');
+		}
+		else {
+		/* alert('Please re-check the captcha');  */
+		} 
+		}
+	</script>
+	</html>
