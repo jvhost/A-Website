@@ -1,5 +1,5 @@
 <!-- Header & Navigation Bar -->
-<? php include 'includes/header.php' ?>
+<?php include 'includes/header.php' ?>
 <title>APLUSPC - Contact</title>
 
 <header>
