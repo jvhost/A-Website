@@ -1,7 +1,7 @@
   <!-- Header & Navigation Bar --->
   <?php include 'includes/header.php' ?>
   
-  <title>testAPLUSPC - About Us</title>	
+  <title>APLUSPC - About Us</title>	
   
   <header class="header-background">
         <div class="container">
